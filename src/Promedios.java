@@ -6,7 +6,7 @@ public class Promedios {
         int count = a.length;
         int positivos = 0, negativos = 0, ceros = 0;
         int sumaPos = 0, sumaNeg = 0;
-        double promPos = 0.0, promNeg = 0.0;
+
         Scanner s = new Scanner(System.in);
 
         for (int i = 0; i < count; i++) {
