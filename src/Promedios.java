@@ -26,14 +26,14 @@ public class Promedios {
             System.out.println("No se pudo calcular el promedio de números positivos porque no se ingresó ninguno");
         } else {
             System.out.println("Se ingresaron " + positivos + " números positivos que suman un total de: " + sumaPos +
-                    " y su promedio es: " + ((double)sumaPos/(double)positivos));
+                    " y su promedio es: " + ((double)sumaPos/positivos));
         }
 
         if (negativos == 0) {
             System.out.println("No se pudo calcular el promedio de números negativos porque no se ingresó ninguno");
         } else {
             System.out.println("Se ingresaron " + negativos + " números negativos que suman un total de: " + sumaNeg +
-                    " y su promedio es: " + ((double)sumaNeg/(double)negativos));
+                    " y su promedio es: " + ((double)sumaNeg/negativos));
         }
 
         System.out.println("Se ingresaron " + ceros + " números cero");
